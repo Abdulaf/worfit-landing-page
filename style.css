@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    content: '';
+    /* position: absolute; */
+    width: 1030px;
+    height:500px;
+    background-color: #24053E;
+    border-radius: 0 0 50% 50%/0 0 50% 50%;
+    transform: scaleX(1.5);
+    margin-left:13%;
+}
+.nav{
+    height:30px;
+    width:800px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: arial ;
+    margin-bottom: 20px;
+}
+.box1{
+    color: white;
+    height: 30px;
+    width: 60px;
+    padding-left: 30px;
+}
+.box2{
+    color: white;
+    height:30px ;
+    width: 130px;
+    border-bottom: 3px solid #44FFA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+.div1{
+    height:55px ;
+    width:350px ;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    span{
+        color: white;
+    }
+}
+.link{
+    height: 40px;
+    width: 100px;
+    margin-top: 15PX;
+    color: #24053E;
+    background-color:#44FFA1;
+    font-family: arial;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    position:absolute;
+    top: 60px;
+    left: -80px;
+}
+.img2{
+    position:absolute;
+    top: 150px;
+    left:860px;
+}
+.img3{
+    position:absolute;
+    top:320px;
+    left:34%;
+}
+main{
+    /* height: 500px; */
+    width: 100vw;
+    background-color:#FCF8FF;
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom:40px;
+}
+.container{
+    height:308px ;
+    width: 75%;
+    background-color:#FCF8FF;
+    display: flex;
+    flex-direction: row;
+}
+.section1{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.no1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #24053E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: #24053E;
+}
+.head1{
+    font-size: 1.2rem;
+    color: #24053E;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.main1{
+    width: 400px;
+    height: 140px;
+    text-align: center;
+    font-family: arial;
+    width: 200px;
+    color: #584D62;
+    font-size: 0.9rem;
+    justify-content: center;
+    
+}
+footer{
+    height:700px;
+    width: 100%vw;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 10%;
+}
+.container2{
+    height: 1500px;
+    width: 85%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left:80px ;
+}
+.section2{
+    height:300px;
+    width: 100%;
+    background-color: #24053E;
+    position:relative;
+    right:140px;
+    top:150px;
+    color:white;
+    padding: 30px;
+    margin-left: 50px;
+    p{
+        font-weight:lighter;
+    }
+}
+.heading2{
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color: #FCF8FF;
+}
+.pargh{
+    font-size: 1.5rem;
+    font-family: arial;
+    margin-bottom: 30px;
+    color: #FCF8FF;
+    font-weight: 0.7rem;
+}
+.link2{
+    height: 42px;
+    width: 150px;
+    font-family: arial;
+    background-color: #44FFA1;
+    color: #24053E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img4{
+    position: relative;
+    top: -90px;
+    left:350px ;
+}
+.container3{
+    height: 103px;
+    width: 116px;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    flex-direction:column;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+/* .prof{
+    height: 430px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url(IMG_2725.PNG);
+    background-size:cover ;
+} */
+u{
+    color: #44FFA1;
+}
+#hover1:hover{
+    background-color: #24053E;
+    color: #44FFA1;
+    border:2px solid #44FFA1;
+}
+
+#hover2:hover{
+    background-color: #44FFA1;
+    color: #24053E;
+    border: 2px solid #44FFA1;
+}
